@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700|Quattrocento:700');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Space Mono", Arial, Helvetica, sans-serif;
     font-weight: lighter;
     background: white;
     overflow: hidden;
@@ -28,7 +28,6 @@ h1 {
 h2 {
     font-size: 14pt;
     font-style: italic;
-    font-family: sans-serif;
     font-weight: lighter;
     color: #BBB;
 }
@@ -49,18 +48,17 @@ h2 {
 .written-in-ink {
     z-index: 3;
     font-size: 9pt;
-    font-family: sans-serif;
     text-align: center;
     font-weight: 700;
     position: fixed;
     display: block;
     width: 100%;
-    /* background: white; */
     margin: 0;
     padding-top: 6px;
-    padding-bottom: 6px;
+    padding-bottom: 7px;
     height: 14px;
     top: 0;
+    background: #000;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
@@ -103,7 +101,6 @@ h2 {
     margin: 0 auto;
     padding: 20px;
     padding-top: 4em;
-    /* background: white; */
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
@@ -119,10 +116,10 @@ p {
     font-weight: lighter;
 }
 
-a {
+a,
+.dark a {
     font-weight: 700;
     color: #16b098;
-    font-family: sans-serif;
     text-decoration: none;
     cursor: pointer;
 }
@@ -130,13 +127,13 @@ a {
 .unclickable {
     font-weight: 700;
     color: #4f3411;
-    font-family: sans-serif;
     text-decoration: none;
     cursor: not-allowed;
 }
 
-a:hover {
-    color: black;
+a:hover,
+.dark a:hover {
+    color: #14927f;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
@@ -222,7 +219,7 @@ img {
     right: 14px;
     top: 4px;
     user-select: none;
-    background: white;
+    background: #000;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
@@ -267,24 +264,9 @@ body.dark {
     color: #ccc;
 }
 
-.dark .container {
-    /* background: #333; */
-}
-
-/* .dark .written-in-ink {
-    background: black;
-} */
-
-.dark a {
-    color: #42ccb6;
-}
 .dark .unclickable{
     color: #c4af87;
     cursor:not-allowed;
-}
-
-.dark a:hover {
-    color: white;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
@@ -297,14 +279,6 @@ body.dark {
     color: white;
 }
 
-.dark #controls [disabled] {
-    color: #999;
-}
-
 .dark .end {
     color: white;
-}
-
-.dark #controls {
-    background: black;
 }
