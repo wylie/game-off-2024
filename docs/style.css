@@ -124,6 +124,7 @@ a {
     color: #16b098;
     font-family: sans-serif;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .unclickable {
@@ -262,7 +263,7 @@ body.dark {
     color: #666;
 }
 
-.dark h2 {
+.dark p {
     color: #ccc;
 }
 
