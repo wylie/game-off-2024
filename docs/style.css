@@ -16,7 +16,6 @@ body {
 h1,
 h2 {
     text-align: center;
-    font-family: "Quattrocento", Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
@@ -115,14 +114,14 @@ h2 {
 
 p {
     font-size: 13pt;
-    color: #888;
+    color: #666;
     line-height: 1.7em;
     font-weight: lighter;
 }
 
 a {
     font-weight: 700;
-    color: #b97c2c;
+    color: #16b098;
     font-family: sans-serif;
     text-decoration: none;
 }
@@ -263,6 +262,10 @@ body.dark {
     color: #666;
 }
 
+.dark h2 {
+    color: #ccc;
+}
+
 .dark .container {
     background: black;
 }
@@ -272,7 +275,7 @@ body.dark {
 }
 
 .dark a {
-    color: #cc8f1a;
+    color: #42ccb6;
 }
 .dark .unclickable{
     color: #c4af87;
