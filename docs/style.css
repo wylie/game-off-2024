@@ -55,7 +55,7 @@ h2 {
     position: fixed;
     display: block;
     width: 100%;
-    background: white;
+    /* background: white; */
     margin: 0;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -103,7 +103,7 @@ h2 {
     margin: 0 auto;
     padding: 20px;
     padding-top: 4em;
-    background: white;
+    /* background: white; */
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
@@ -232,7 +232,7 @@ img {
 }
 
 #controls [disabled] {
-    color: #ccc;
+    color: #aaa;
 }
 
 #controls>*:not(:last-child):after {
@@ -255,7 +255,7 @@ img {
 */
 
 body.dark {
-    background: black;
+    background: #333;
     color: white;
 }
 
@@ -268,12 +268,12 @@ body.dark {
 }
 
 .dark .container {
-    background: black;
+    /* background: #333; */
 }
 
-.dark .written-in-ink {
+/* .dark .written-in-ink {
     background: black;
-}
+} */
 
 .dark a {
     color: #42ccb6;
@@ -298,7 +298,7 @@ body.dark {
 }
 
 .dark #controls [disabled] {
-    color: #444;
+    color: #999;
 }
 
 .dark .end {
